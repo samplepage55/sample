@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>that is my page </title>
+  <style>
+  *{background-color:#ddd;text-align:center;}
+  </style>
+</head>
+<body>
+<a href="https://www.google.com">Google</a>
+<hr>
+<h1>Heading</h1>
+</body>
+</html>
