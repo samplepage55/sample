@@ -1,0 +1,75 @@
+{
+  "name": "محمد أحمد",
+  "title": "مهندس برمجيات",
+  "location": "الخرطوم، السودان",
+  "summary": "مهندس برمجيات شغوف ببناء تطبيقات موثوقة وسهلة الاستخدام، بخبرة في تطوير الواجهات والخلفيات وأتمتة العمليات.",
+  "pdf_url": "",
+  "contacts": {
+    "email": "you@example.com",
+    "phone": "+249XXXXXXXXX",
+    "website": "https://example.com",
+    "linkedin": "https://www.linkedin.com/in/username",
+    "github": "https://github.com/username"
+  },
+  "skills": [
+    { "group": "الواجهات", "items": ["HTML", "CSS", "JavaScript", "React", "Tailwind"] },
+    { "group": "الخلفية", "items": ["Node.js", "Express", "PostgreSQL", "MongoDB"] },
+    { "group": "DevOps", "items": ["Docker", "CI/CD", "Linux"] },
+    { "group": "أخرى", "items": ["Git", "اختبارات", "تصميم واجهات"] }
+  ],
+  "experience": [
+    {
+      "company": "شركة التقنية الحديثة",
+      "role": "مهندس برمجيات أول",
+      "location": "الخرطوم",
+      "start": "2022",
+      "end": "Present",
+      "achievements": [
+        "قيادة تطوير منصة تجارة إلكترونية تخدم آلاف المستخدمين يوميًا",
+        "تحسين أداء واجهة المستخدم بنسبة 40% باستخدام تقنيات التحميل الكسول",
+        "بناء خطوط نشر تلقائية قللت زمن الإطلاق من أيام إلى ساعات"
+      ]
+    },
+    {
+      "company": "ستارتب XYZ",
+      "role": "مطور واجهات",
+      "location": "عن بعد",
+      "start": "2020",
+      "end": "2022",
+      "achievements": [
+        "بناء لوحة تحكم تفاعلية لإدارة البيانات",
+        "تحسين إمكانية الوصول ودعم RTL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "منصة تعلم إلكتروني",
+      "link": "https://example.com/project",
+      "description": "منصة لدروس الفيديو مع إدارة مستخدمين ودفع إلكتروني.",
+      "stack": ["React", "Node.js", "PostgreSQL"],
+      "highlights": ["دعم تحميل الدروس للفصل دون اتصال", "نظام تقييم متقدّم"]
+    },
+    {
+      "name": "مكتبة مكونات UI",
+      "link": "",
+      "description": "مكتبة مكونات خفيفة الوزن للواجهات العربية.",
+      "stack": ["TypeScript", "CSS"],
+      "highlights": ["توثيق واضح", "قابلة للتخصيص"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "جامعة الخرطوم",
+      "degree": "بكالوريوس هندسة البرمجيات",
+      "location": "الخرطوم",
+      "start": "2015",
+      "end": "2019"
+    }
+  ],
+  "languages": [
+    { "name": "العربية", "level": "لغة أم" },
+    { "name": "الإنجليزية", "level": "متوسط" }
+  ],
+  "interests": ["الذكاء الاصطناعي", "البرمجة مفتوحة المصدر", "كرة القدم"]
+}

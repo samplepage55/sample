@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <title>السيرة الذاتية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="identity">
+          <h1 id="profile-name" class="name" aria-live="polite">اسمك هنا</h1>
+          <p id="profile-title" class="role" aria-live="polite">المسمى الوظيفي</p>
+          <p id="profile-location" class="location" aria-live="polite"></p>
+          <nav id="profile-contacts" class="contacts" aria-label="روابط التواصل"></nav>
+        </div>
+        <div class="actions">
+          <button id="theme-toggle" class="btn" type="button" title="وضع الليل/النهار" aria-label="تبديل السمة">🌙</button>
+          <button id="print-button" class="btn" type="button" title="طباعة PDF" aria-label="طباعة السيرة الذاتية">🖨️</button>
+          <a id="pdf-link" class="btn btn-outline hidden" href="#" target="_blank" rel="noopener" title="تحميل PDF">PDF</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container content" tabindex="-1">
+      <section id="summary" class="section">
+        <h2 class="section-title">نبذة</h2>
+        <p id="profile-summary" class="summary-text"></p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2 class="section-title">المهارات</h2>
+        <div id="skills-content" class="chips"></div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2 class="section-title">الخبرات</h2>
+        <div id="experience-content" class="cards"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-title">المشاريع</h2>
+        <div id="projects-content" class="cards"></div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">التعليم</h2>
+        <div id="education-content" class="cards"></div>
+      </section>
+
+      <section id="languages" class="section">
+        <h2 class="section-title">اللغات</h2>
+        <div id="languages-content" class="chips"></div>
+      </section>
+
+      <section id="interests" class="section">
+        <h2 class="section-title">الاهتمامات</h2>
+        <div id="interests-content" class="chips"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small id="last-updated"></small>
+      </div>
+    </footer>
+
+    <noscript>
+      يجب تفعيل JavaScript لعرض السيرة الذاتية من ملف البيانات.
+    </noscript>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
