@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>السيرة الذاتية | موقع شخصي</title>
+  <meta name="description" content="موقع شخصي لعرض السيرة الذاتية" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">تخطي إلى المحتوى</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="./images/avatar.png" alt="صورة شخصية" class="avatar" onerror="this.style.display='none'" />
+        <div>
+          <h1 class="name">اسمك الكريم</h1>
+          <p class="role">المسمى الوظيفي</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <button id="theme-toggle" class="theme-toggle" aria-label="تبديل الوضع">🌙</button>
+        <ul>
+          <li><a href="#about">نبذة</a></li>
+          <li><a href="#experience">الخبرات</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#projects">المشاريع</a></li>
+          <li><a href="#education">التعليم</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container">
+    <section id="about" class="card">
+      <h2>نبذة</h2>
+      <p>
+        اكتب فقرة قصيرة تعرف بها بنفسك وخبراتك وأهدافك المهنية.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="./assets/cv.pdf" download>تحميل السيرة الذاتية (PDF)</a>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>الخبرات</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <header>
+            <h3>المسمى الوظيفي — اسم الشركة</h3>
+            <span class="meta">2022 - الآن | المدينة، الدولة</span>
+          </header>
+          <ul>
+            <li>إنجاز أو مسؤولية رقم 1.</li>
+            <li>إنجاز أو مسؤولية رقم 2.</li>
+            <li>إنجاز أو مسؤولية رقم 3.</li>
+          </ul>
+        </article>
+        <!-- أضف المزيد حسب الحاجة -->
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>المهارات</h2>
+      <ul class="tags">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>المشاريع</h2>
+      <div class="grid">
+        <article class="project">
+          <h3>اسم المشروع</h3>
+          <p>وصف مختصر للمشروع وما الذي قدمته فيه.</p>
+          <div class="actions">
+            <a class="btn" href="#" target="_blank" rel="noopener">الموقع</a>
+            <a class="btn" href="#" target="_blank" rel="noopener">المصدر</a>
+          </div>
+        </article>
+        <!-- أضف المزيد -->
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>التعليم</h2>
+      <ul>
+        <li>بكالوريوس — اسم الجامعة (2018 - 2022)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>تواصل</h2>
+      <ul class="contact-list">
+        <li>البريد: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>الهاتف: <a href="tel:+249XXXXXXXXX">+249XXXXXXXXX</a></li>
+        <li>لينكدإن: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></li>
+        <li>غِتهاب: <a href="https://github.com/youruser" target="_blank" rel="noopener">github.com/youruser</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> اسمك الكريم. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+</body>
+</html>
