@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #4c8fbd, #28527a);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  padding: 3rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #28527a;
+}
+
+.skills-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.skills-list li {
+  background: #e0eefe;
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #d62828;
+}
+
+.btn.secondary {
+  background: #28527a;
+}
+
+.btn.secondary:hover {
+  background: #1d3e5a;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #28527a;
+  color: #fff;
+}
