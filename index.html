@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>السيرة الذاتية | اسمك هنا</title>
+  <meta name="description" content="سيرة ذاتية مختصرة ووسائل تواصل" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="icon" href="/images/favicon.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="/images/avatar.png" alt="صورة" class="avatar"/>
+        <div>
+          <h1 class="name">اسمك هنا</h1>
+          <p class="role">المسمى الوظيفي</p>
+        </div>
+      </div>
+      <nav class="actions">
+        <button id="themeToggle" aria-label="تبديل النمط">🌓</button>
+        <a class="btn" href="/assets/cv.pdf" download>تحميل CV</a>
+        <button class="btn" onclick="window.print()">طباعة</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>نبذة</h2>
+      <p>
+        سطر أو سطران عنك: خبرتك، مجالك، ما تقدمه. استبدل هذا النص بمعلوماتك.
+      </p>
+      <ul class="contact">
+        <li>📧 البريد: <a href="mailto:your@mail.com">your@mail.com</a></li>
+        <li>📱 الهاتف: <a href="tel:+249xxxxxxxxx">+249xxxxxxxxx</a></li>
+        <li>🔗 لينكدإن: <a href="https://linkedin.com/in/your" target="_blank" rel="noopener">linkedin.com/in/your</a></li>
+        <li>🐙 GitHub: <a href="https://github.com/your" target="_blank" rel="noopener">github.com/your</a></li>
+        <li>📍 الموقع: الخرطوم، السودان</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>الخبرات</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>المسمى الوظيفي - الشركة</h3>
+          <span class="meta">2022 - الآن • الخرطوم</span>
+        </div>
+        <ul>
+          <li>إنجاز أو مسؤولية رئيسية رقم 1.</li>
+          <li>إنجاز أو مسؤولية رئيسية رقم 2.</li>
+          <li>إنجاز أو مسؤولية رئيسية رقم 3.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-head">
+          <h3>مسمى سابق - شركة سابقة</h3>
+          <span class="meta">2020 - 2022 • عن بُعد</span>
+        </div>
+        <ul>
+          <li>إنجاز أو مسؤولية رئيسية.</li>
+          <li>إنجاز أو مسؤولية رئيسية.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Django</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>التعليم</h2>
+      <div class="item">
+        <div class="item-head">
+          <h3>بكالوريوس - الجامعة</h3>
+          <span class="meta">2016 - 2020</span>
+        </div>
+        <p>وصف مختصر للتخصص أو المشروعات البارزة.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>المهارات</h2>
+      <div class="skills-grid">
+        <span class="chip">JavaScript</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">React</span>
+        <span class="chip">Next.js</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Docker</span>
+        <span class="chip">AWS</span>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>المشاريع</h2>
+      <article class="project">
+        <div class="project-head">
+          <h3>اسم المشروع</h3>
+          <a class="btn small" href="#" target="_blank" rel="noopener">عرض</a>
+        </div>
+        <p>وصف مختصر للمشروع ودورك فيه والتقنيات المستخدمة.</p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">API</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>تواصل</h2>
+      <form class="contact-form" action="https://formspree.io/f/your" method="POST">
+        <div class="row">
+          <input name="name" type="text" placeholder="الاسم" required />
+          <input name="email" type="email" placeholder="البريد" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+        <button type="submit" class="btn primary">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> اسمك هنا</span>
+      <div class="links">
+        <a href="#about">نبذة</a>
+        <a href="#experience">خبرات</a>
+        <a href="#projects">مشاريع</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js"></script>
+</body>
+</html>
